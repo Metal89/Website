@@ -1,8 +1,115 @@
 ---
-layout: default
+layout: gallery
 title: Gallery
 ---
 
+<div class="container" style="padding: 20px">
+	<button id="java-32x"      type="button" class="btn btn-dark">Java 32x</button>
+	<button id="java-64x"      type="button" class="btn btn-dark disabled">Java 64x</button>
+	<button id="bedrock-32x"   type="button" class="btn btn-dark disabled">Bedrock 32x</button>
+	<button id="bedrock-64x"   type="button" class="btn btn-dark disabled">Bedrock 64x</button>
+	<button id="dungeons-32x"  type="button" class="btn btn-dark disabled">Dungeons</button>
+	<button id="education-32x" type="button" class="btn btn-dark disabled">Education</button>
+	<hr>
+	<button id="armor"       type="button" class="btn btn-dark disabled">Armors</button>
+	<button id="block"       type="button" class="btn btn-dark">Blocks</button>
+	<button id="colormap"    type="button" class="btn btn-dark disabled">Colormaps</button>
+	<button id="entity"      type="button" class="btn btn-dark disabled">Entity</button>
+	<button id="environment" type="button" class="btn btn-dark disabled">Environment</button>
+	<button id="font"        type="button" class="btn btn-dark disabled">Fonts</button>
+	<button id="gui"         type="button" class="btn btn-dark disabled">GUI</button>
+	<button id="item"        type="button" class="btn btn-dark disabled">Items</button>
+	<button id="map"         type="button" class="btn btn-dark disabled">Map</button>
+	<button id="mob_effects" type="button" class="btn btn-dark disabled">Mob Effects</button>
+	<button id="painting"    type="button" class="btn btn-dark disabled">Paintings</button>
+	<button id="particle"    type="button" class="btn btn-dark disabled">Particles</button>
+	<button id="others"      type="button" class="btn btn-dark disabled">Others</button>
+</div>
+
+<div class="container-fluid" style="padding-top: 20px">
+	<div class="row">
+		<div class="col-xs6 col-left"><button class="btn btn-dark disabled"><i class="fas fa-chevron-left"></i></button></div>
+		<div class="col">
+
+			<div class="card-deck">
+
+				{%- for i in (0..6) -%}
+
+					<div class="card">
+						<img class="card-img-top" src="{{ site.baseurl }}/image/gallery/transparent.png">
+						<div class="card-img-overlay">
+							<!-- Fullscreen -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-expand"></i>
+							</button>
+
+							<!-- Information -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-arrow-circle-down"></i>
+							</button>
+						</div>
+					</div>
+
+				{%- endfor -%}
+
+			</div>
+
+			<br>
+
+			<div class="card-deck">
+
+				{%- for i in (0..6) -%}
+
+					<div class="card">
+						<img class="card-img-top" src="{{ site.baseurl }}/image/gallery/transparent.png">
+						<div class="card-img-overlay">
+							<!-- Fullscreen -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-expand"></i>
+							</button>
+
+							<!-- Information -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-arrow-circle-down"></i>
+							</button>
+						</div>
+					</div>
+
+				{%- endfor -%}
+
+			</div>
+
+			<br>
+
+			<div class="card-deck">
+
+				{%- for i in (0..6) -%}
+
+					<div class="card">
+						<img class="card-img-top" src="{{ site.baseurl }}/image/gallery/transparent.png">
+						<div class="card-img-overlay">
+							<!-- Fullscreen -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-expand"></i>
+							</button>
+
+							<!-- Information -->
+							<button type="button" class="btn btn-dark btn-square-xs">
+								<i class="fas fa-arrow-circle-down"></i>
+							</button>
+						</div>
+					</div>
+
+				{%- endfor -%}
+
+			</div>
+
+		</div>
+		<div class="col-xs6 col-right"><button class="btn btn-dark"><i class="fas fa-chevron-right"></i></button></div>
+	</div>
+</div>
+
+<!--
 <link rel="stylesheet" href="{{ site.baseurl }}/css/gallery.css">
 
 <div id="main">	
@@ -47,4 +154,4 @@ title: Gallery
 <script src="{{ site.baseurl }}/js/components/customModal.js"></script>
 <script src="{{ site.baseurl }}/js/components/gallery/textureViewer.js"></script>
 <script src="{{ site.baseurl }}/js/components/gallery/editionGallery.js"></script>
-<script src="{{ site.baseurl }}/js/Gallery.js"></script>
+<script src="{{ site.baseurl }}/js/Gallery.js"></script> -->
