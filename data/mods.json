@@ -3827,6 +3827,17 @@
   },
   {
     "name": {
+      "displayName": "Simple Ores",
+      "aliases": []
+    },
+    "versions": [
+        "1.16.5"
+    ],
+    "curse": "simpleores",
+	"extRepo": "https://github.com/Metal89/simpleores"
+},
+  {
+    "name": {
       "displayName": "Simple Storage Network",
       "aliases": []
     },
